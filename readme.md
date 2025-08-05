@@ -48,9 +48,6 @@ clojure -M -m penpot-styles.entry -h
 Working in JS files, you may want to consider a more official tool [penpot-export](https://github.com/penpot/penpot-export).
 
 
-You may 
-
-
 ## Changelog
 
 ### 0.0.1 - 2025-08-05
