@@ -25,20 +25,23 @@ You will need Java installed.
 
 You will need the penpot [access-token](https://help.penpot.app/technical-guide/integration/#access-tokens), and the file-id of the project you want to generate the CSS.
 
-
-> export PENPOT_ACCESS_TOKEN=<access-token>
-> export PENPOT_FILE_ID=<file-id>
-
-
+```bash
+export PENPOT_ACCESS_TOKEN=<access-token>
+export PENPOT_FILE_ID=<file-id>
+```
+ 
 Running will look like this
 
-> clojure -M -m penpot-styles.entry -t $PENPOT_TOKEN -f $PENPOT_FILE_ID
+```bash
+clojure -M -m penpot-styles.entry -t $PENPOT_TOKEN -f $PENPOT_FILE_ID
+``` 
 
 
 Manual is available on with `-h`
 
-> clojure -M -m penpot-styles.entry -h
-
+```bash
+clojure -M -m penpot-styles.entry -h
+```
 
 ## Alternative
 
