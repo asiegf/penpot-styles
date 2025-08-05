@@ -1,0 +1,19 @@
+{:paths
+ ["src"]
+
+ :deps
+ {org.clojure/clojure       {:mvn/version "1.12.1"}
+  http-kit/http-kit         {:mvn/version "2.9.0-beta1"}
+  com.cognitect/transit-clj {:mvn/version "1.0.333"}
+  org.clojure/tools.cli     {:mvn/version "1.1.230"}
+  org.clojure/data.json     {:mvn/version "2.5.0"}
+  ;; needed to avoid warning: https://github.com/noprompt/garden/issues/194
+  garden/garden             {:git/url "https://github.com/noprompt/garden"
+                             :git/sha "633785768136ed9b7338db60a4f14661ef44c453"}}
+
+ :aliases
+ {:run {:main-opts ["-m" "penpot-css.entry"]
+        :exec-fn    penpot-css.entry/-main}
+  :dev {:extra-paths ["dev"]
+        :extra-deps {cider/cider-nrepl {:mvn/version "0.57.0"}}}}}
+
