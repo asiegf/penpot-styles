@@ -1,5 +1,5 @@
 
-# penpot-css
+# penpot-styles
 
 Is a command line utility that will generate the `design-system` or `theming` css file from a penpot file.
 
@@ -32,12 +32,12 @@ You will need the penpot [access-token](https://help.penpot.app/technical-guide/
 
 Running will look like this
 
-> clojure -M -m penpot-css.entry -t $PENPOT_TOKEN -f $PENPOT_FILE_ID
+> clojure -M -m penpot-styles.entry -t $PENPOT_TOKEN -f $PENPOT_FILE_ID
 
 
 Manual is available on with `-h`
 
-> clojure -M -m penpot-css.entry -h
+> clojure -M -m penpot-styles.entry -h
 
 
 ## Alternative

@@ -12,8 +12,8 @@
                              :git/sha "633785768136ed9b7338db60a4f14661ef44c453"}}
 
  :aliases
- {:run {:main-opts ["-m" "penpot-css.entry"]
-        :exec-fn    penpot-css.entry/-main}
+ {:run {:main-opts ["-m" "penpot-styles.entry"]
+        :exec-fn    penpot-styles.entry/-main}
   :dev {:extra-paths ["dev"]
         :extra-deps {cider/cider-nrepl {:mvn/version "0.57.0"}}}}}
 

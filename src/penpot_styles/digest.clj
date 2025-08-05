@@ -1,4 +1,4 @@
-(ns penpot-css.digest
+(ns penpot-styles.digest
   (:refer-clojure :exclude [abs])
   (:require [clojure.string :as s]
             [garden.core :refer [css] :exclude [abs]]))

@@ -1,4 +1,4 @@
-(ns penpot-css.munch
+(ns penpot-styles.munch
   (:require [clojure.string :as s]))
 
 (defn- make-classes-fn

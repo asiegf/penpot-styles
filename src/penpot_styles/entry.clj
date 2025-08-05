@@ -1,8 +1,8 @@
-(ns penpot-css.entry
+(ns penpot-styles.entry
   (:require [clojure.string :as s]
             [clojure.tools.cli :refer [parse-opts]]
             [clojure.java.io :as io]
-            [penpot-css.core :as core])
+            [penpot-styles.core :as core])
   (:gen-class))
 
 
@@ -41,7 +41,7 @@
 
 (defn usage
   [options-summary]
-  (->> ["Running penpot-css, a handy way to generate a base css from penpot."
+  (->> ["Running penpot-styles, a handy way to generate a base css from penpot."
         nil
         "Usage: clojure -M -m [options]"
         nil

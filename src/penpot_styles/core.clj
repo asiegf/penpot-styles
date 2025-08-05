@@ -1,12 +1,12 @@
- (ns penpot-css.core
+ (ns penpot-styles.core
    (:require [org.httpkit.client :as http]
              [clojure.string :as s]
              [cognitect.transit :as transit]
              [clojure.tools.cli :refer [parse-opts]]
              [clojure.java.io :as io]
              [clojure.data.json :as json]
-             [penpot-css.munch :as munch]
-             [penpot-css.digest :as digest])
+             [penpot-styles.munch :as munch]
+             [penpot-styles.digest :as digest])
    (:import [java.io ByteArrayInputStream ByteArrayOutputStream]))
 
 (defn- parse-transit
